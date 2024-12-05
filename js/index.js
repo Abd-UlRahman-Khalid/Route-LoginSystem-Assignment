@@ -17,7 +17,7 @@ function validateUserData() {
       usersArray[i].password == verifyPassword.value
     ) {
       localStorage.setItem("loggedInUser", usersArray[i].name);
-      window.location.href = "/pages/home.html";
+      window.location.href = "./pages/home.html";
       return;
     }
   }
