@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Abd-UlRahman Khalid" />
+    <!-- FaveIcon -->
+    <link rel="Icon" href="/assets/globe.webp" />
+    <!-- Link bootstrab & bootstrab Icons  -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap-icons.css" />
+    <!-- link FontAwsom -->
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <!-- Link Css-Files -->
+    <link rel="stylesheet" href="/css/signUp.css" />
+    <title>Smart Login</title>
+  </head>
+  <body>
+    <main class="d-flex justify-content-center align-items-center">
+      <div class="box w-50">
+        <div
+          class="box-content p-5 d-flex justify-content-center flex-column text-center w-100"
+        >
+          <h1 class="text-info mb-3">Smart Login System</h1>
+          <div class="form-box d-flex flex-column">
+            <input
+              id="inName"
+              type="text"
+              placeholder="Enter your name"
+              class="form-control mb-2 text-white"
+            />
+            <input
+              id="inEmail"
+              type="email"
+              placeholder="Enter your email"
+              class="form-control mb-2 text-white"
+            />
+            <input
+              id="inPassword"
+              type="password"
+              placeholder="Enter your password"
+              class="form-control text-white"
+            />
+            <p id="requiredError" class="text-danger"></p>
+            <p id="addedSuccessfully" class="text-success"></p>
+            <button id="signUpBtn" class="btn btn-outline-info my-3">
+              Sign Up
+            </button>
+            <p class="text-white">
+              Don’t have an account?<a href="../index.html" class="text-white">
+                Sign In</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Link Js Files -->
+    <script src="/js/signUp.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

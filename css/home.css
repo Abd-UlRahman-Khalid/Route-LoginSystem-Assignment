@@ -1,0 +1,32 @@
+:root {
+  --primer-color: #24353f;
+  /* --secondary-color: #ced4da; */
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background: var(--primer-color);
+}
+
+main {
+  height: 100vh;
+}
+.box-content {
+  box-shadow: -5px -2px 54px -9px rgb(0, 0, 0, 1);
+  background: var(--primer-color);
+}
+
+.upper-box {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.btn-logout {
+  border: solid 1px #ffc107;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
